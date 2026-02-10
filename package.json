@@ -1,0 +1,24 @@
+{
+  "name": "openid-client-effect",
+  "version": "0.1.0",
+  "description": "OpenID Connect client built with Bun and Effect",
+  "type": "module",
+  "main": "src/index.ts",
+  "module": "src/index.ts",
+  "types": "src/index.ts",
+  "scripts": {
+    "check": "bunx tsc --noEmit",
+    "test": "bun test",
+    "docs:build": "bunx typedoc"
+  },
+  "dependencies": {
+    "@effect/platform": "^0.94.4",
+    "effect": "^3.12.10",
+    "jose": "^5.9.6"
+  },
+  "devDependencies": {
+    "@types/bun": "latest",
+    "typedoc": "^0.27.9",
+    "typescript": "5.8.2"
+  }
+}
